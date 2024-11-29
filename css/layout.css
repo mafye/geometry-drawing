@@ -1,0 +1,51 @@
+/* 基础布局样式 */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.top-nav {
+    height: 50px;
+    background-color: #2d2d3f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+}
+
+.main-container {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+.tools-panel {
+    width: 200px;
+    background-color: #343440;
+    padding: 10px;
+}
+
+.canvas-container {
+    flex: 1;
+    background-color: white;
+    position: relative;
+}
+
+.right-controls {
+    width: 50px;
+    background-color: #343440;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+#mainCanvas {
+    width: 100%;
+    height: 100%;
+} 
